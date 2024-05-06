@@ -1,15 +1,13 @@
 @media only screen and (max-width: 480px) {
     #project-popup {
-        position: fixed;
+        position: absolute;
         top: 10%;
         left: 5%;
         width: 90%;
         max-height: 80%; /* Set a maximum height */
-        overflow-y: auto; /* Add scrollbars if content exceeds maximum height */
         background-color: white;
         border: 5px double black;
-        margin: 0; /* Remove margins */
-        padding: 10px; /* Add padding for better spacing */
+        margin: 0; 
         box-sizing: border-box; /* Include padding and border in width calculation */
         z-index: 9999;
     }
