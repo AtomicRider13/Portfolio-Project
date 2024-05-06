@@ -22,6 +22,10 @@
     #submit {
         width:12vw;
     }
+
+    #id, #name, #message {
+        width: 20%;
+    }
     
 }
 
