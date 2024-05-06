@@ -1,11 +1,17 @@
 @media only screen and (max-width: 480px) {
-    #project-popup {
+    .project-popup {
         width:200px;
     }
 
     #nav-bar {
         font-size: 5%;
-        height:7%;
+        height:5%;
+
+    }
+
+    #nav-bar div {
+        margin:auto;
+        text-align:center;
     }
 
     div p{
