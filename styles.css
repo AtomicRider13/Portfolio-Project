@@ -31,6 +31,10 @@
         width: 50%; /* Set the width to 50% of its container */
         height: 10em; /* Set the height to 10 lines (approximately) */
     }
+
+    textarea {
+        width:100%;
+    }
     
 }
 
