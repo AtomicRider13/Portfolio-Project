@@ -1,11 +1,14 @@
 @media only screen and (max-width: 480px) {
     #project-popup {
-        position:fixed;
-        top:20%;
-        left:20%;
-        width:60%;
-        background-color:white;
+        position: fixed;
+        top: 10%;
+        left: 5%;
+        width: 90%; /* Adjust width to fit the screen */
+        height: 80%; /* Set a fixed height */
+        overflow-y: scroll; /* Add vertical scrollbar */
+        background-color: white;
         border: 5px double black;
+        z-index: 9999; /* Ensure popup is on top of other elements */
     }
 
     #nav-bar {
