@@ -20,7 +20,12 @@
         margin:5% 5%;
     }
 
-
+    #message {
+        width:60%;
+        height:20vh;
+        background-color:lightgray;
+        
+    }
 
     #email, #name {
         width: 50%;
