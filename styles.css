@@ -11,7 +11,7 @@
     }
 
     #nav-bar div {
-        margin:auto;
+        margin:0;
         text-align:center;
     }
 
@@ -24,7 +24,7 @@
     }
 
     #email, #name, #message {
-        width: 50;
+        width: 50%;
     }
     
 }
