@@ -1,0 +1,215 @@
+html {
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+
+body {
+    height:100vh;
+    width:100vw;
+}
+
+#date {
+    font-weight:normal;
+    font-size:14px;
+    font-family: sans-serif;
+}
+
+div p:first-of-type {
+    color:white;
+    text-align:center;
+    margin:5% 30% 1% 30%;
+}
+
+div p {
+    color:white;
+    text-align:center;
+    margin:1% 30%;}
+    
+
+#nav-bar {
+    width:100%;
+    top:0;
+    border:1px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    position:absolute;
+    background-color:white;
+
+}
+
+#nav-bar div {
+    width:20%;
+    text-align:center;
+    padding:5px;
+}
+#nav-bar div:hover {
+    background-color:black;
+}
+
+#nav-bar div:hover a {
+    color:white;
+}
+
+#nav-bar a {
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+#title-header {
+    font-family:Sedgwick Ave Display, sans-serif;
+    padding-top:20vh;
+    text-align:center;
+    font-size:6vh;
+}
+
+#title-header h1 {
+    color: orangered;
+    margin-bottom:2vh;
+}
+
+#title-header h2{
+    color:white;
+    font-size:2rem;
+}
+
+#emblems {
+    color:white;
+}
+
+#content-header {
+    font-family: Sedgwick Ave Display, sans-serif;
+    color:transparent;
+    color:orangered;
+    padding-top:12.5vh;
+    text-align:center;
+    font-size:5vh;
+}
+
+
+
+#head-shot {
+    text-align:center;
+    padding-top:40px;
+}
+
+#head-shot img {
+    width:auto;
+    height:50vh;
+}
+
+form {
+    text-align:center;
+    
+}
+
+label {
+    color:white;
+    
+}
+
+input {
+    width:20vw;
+    background-color:lightgray;
+}
+
+#message {
+    width:20vw;
+    height:20vh;
+    background-color:lightgray;
+    
+}
+
+#submit {
+    width:5vw;
+    font-weight:bold;
+    border-radius:0%;
+    background-color:lightgray;
+}
+
+#submit:hover {
+    background-color:darkgray;
+}
+
+table {
+    background-color:black;
+    border:1px solid black;
+    width:50vw;
+    text-align:center;
+    margin:auto;
+    
+}
+
+
+
+th {
+    background-color:orangered;
+}
+
+tr {
+    border:1px solid black;
+    text-align:center;
+    background-color:lightgray;
+}
+tr:hover {
+    background-color:darkgray;
+    
+}
+a {
+    color:blue;
+    text-decoration:underline;
+}
+
+#bottom {
+    
+    margin-bottom:15vh;
+    
+}
+
+#project-popup {
+    position:fixed;
+    top:50%;
+    left:35%;
+    width:30%;
+    background-color:white;
+    border: 5px double black;
+}
+
+#project-popup-title {
+    text-align:center;
+    font-weight:bold;
+    background-color:orangered;
+    border-bottom:1px double black;
+
+}
+
+#project-popup-description {
+    color:black;
+    text-align:left;
+    padding:1%;
+}
+
+#project-popup-closeBtn {
+    text-align:center;
+    margin:1%;
+}
+
+#project-popup-closeBtn button {
+    font-weight:bold;
+    background-color:lightgray;
+    border:1px solid black;
+}
+
+#project-popup-closeBtn button:hover {
+    background-color:darkgray;
+    
+}
+
+.hidden {
+    display:none;
+}
+
+.display {
+    display: contents;
+}

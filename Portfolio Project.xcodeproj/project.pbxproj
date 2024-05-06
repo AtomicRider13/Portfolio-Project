@@ -6,10 +6,27 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0C66D5EB2BE0A09200AA1F2C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0C66D5EC2BE0A0A600AA1F2C /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		0C66D5ED2BE1438A00AA1F2C /* gamedevelopment.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = gamedevelopment.html; sourceTree = "<group>"; };
+		0C66D5EF2BE1441D00AA1F2C /* aboutme.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = aboutme.html; sourceTree = "<group>"; };
+		0C66D5F12BE1445300AA1F2C /* webdevelopment.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = webdevelopment.html; sourceTree = "<group>"; };
+		0C66D5F22BE1447800AA1F2C /* contactme.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contactme.html; sourceTree = "<group>"; };
+		0C66D5F32BE6F45300AA1F2C /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0C66D5E42BE0A06200AA1F2C = {
 			isa = PBXGroup;
 			children = (
+				0C66D5EB2BE0A09200AA1F2C /* index.html */,
+				0C66D5ED2BE1438A00AA1F2C /* gamedevelopment.html */,
+				0C66D5F12BE1445300AA1F2C /* webdevelopment.html */,
+				0C66D5EF2BE1441D00AA1F2C /* aboutme.html */,
+				0C66D5F22BE1447800AA1F2C /* contactme.html */,
+				0C66D5EC2BE0A0A600AA1F2C /* styles.css */,
+				0C66D5F32BE6F45300AA1F2C /* script.js */,
 			);
 			sourceTree = "<group>";
 		};

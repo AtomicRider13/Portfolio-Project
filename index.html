@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio: Home</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    </head>
+    <main>
+        <audio autoplay src="bg-music1.mp3"></audio>
+        <header>
+            <nav id="nav-bar">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="gamedevelopment.html">Game Development</a></div>
+                <div><a href="webdevelopment.html">Web Development</a></div>
+                <div><a href="aboutme.html">About Me</a></div>
+                <div><a href="contactme.html">Contact Me</a></div>
+            </nav>
+        </header>
+        <body>
+            <div id="title-header">
+                <h1 id>CGB Portfolio</h1>
+                <div id="emblems">
+                    <i class="fa-brands fa-html5" style="color:red;"></i>
+                    <i class="fa-brands fa-css3-alt" style="color:cyan;"></i>
+                    <i class="fa-brands fa-js" style="color:yellow;"></i>
+                    <i class="fa-brands fa-unity"></i>
+                </div>
+                <h2>Coding Dreams into Reality</h2>
+                <p id="time"></p>
+                <p id="date"></p>
+            </div>
+            <div id ="bottom"></div>
+            <script src="script.js"></script>
+            <script src="https://kit.fontawesome.com/f0aad7d9f0.js" crossorigin="anonymous"></script>
+            <script>
+                function updateTime() {
+    
+    const currentDate = new Date();
+    
+    let hours = currentDate.getHours() > 12 ? currentDate.getHours() - 12 : currentDate.getHours();
+    let minutes = currentDate.getMinutes() < 10 ? '0' + currentDate.getMinutes() : currentDate.getMinutes();
+    let seconds = currentDate.getSeconds() < 10 ? '0' + currentDate.getSeconds() : currentDate.getSeconds();
+    let amPm = currentDate.getHours() < 12 ? " AM" : " PM";
+    let time = `${hours}:${minutes}:${seconds} <span style="color: orangered;">${amPm}</span>`;
+    
+    let weekDay = currentDate.getDay();
+    let month = currentDate.getMonth();
+    let day = currentDate.getDate();
+    let year = currentDate.getFullYear();
+    
+    switch(weekDay) {
+        case 0:
+            weekDay = "Sunday";
+            break;
+        case 1:
+            weekDay = "Monday";
+            break;
+        case 2:
+            weekDay = "Tuesday";
+            break;
+        case 3:
+            weekDay = "Wednesday";
+            break;
+        case 4:
+            weekDay = "Thursday";
+            break;
+        case 5:
+            weekDay = "Friday";
+            break;
+        case 6:
+            weekDay = "Saturday";
+            break;
+        Default:
+            alert("ERROR LOADING weekDay VARIABLE!!!!");
+        
+    };
+
+    switch(month) {
+        case 0:
+            month = "January";
+            break;
+        case 1:
+            month = "February";
+            break;
+        case 2:
+            month = "March";
+            break;
+        case 3:
+            month = "April";
+            break;
+        case 4:
+            month = "May";
+            break;
+        case 5:
+            month = "June";
+            break;
+        case 6:
+            month = "July";
+            break;
+        case 7:
+            month = "August";
+            break;
+        case 8:
+            month = "September";
+            break;
+        case 9:
+            month = "October";
+            break;
+        case 10:
+            month = "November";
+            break;
+        case 11:
+            month = "December";
+            break;
+        Default:
+            alert("ERROR LOADING month VARIABLE!!!!");
+        
+    };
+    
+    dateElement.innerText = `${weekDay} - ${day} ${month} ${year}`;
+    timeElement.innerHTML = time;
+}
+
+updateTime();
+
+setInterval(updateTime, 1000);
+            </script>
+        </body>
+    </main>
+    <footer>
+    </footer>
+</html>
+            
+                
