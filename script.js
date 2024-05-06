@@ -25,7 +25,7 @@ Array.from(tableRowElements).forEach((element) => {
 });
 
 popUpCloseBtn.addEventListener("click", () => {
-    clickAudioElement.play();
+    
     popUpDisplay.classList.add("hidden");
 })
 
