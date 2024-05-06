@@ -24,6 +24,10 @@
     }
 
     #page-description {
+        width:100%;
+    }
+
+    #page-description p {
         width:90%;
     }
 }
