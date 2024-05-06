@@ -28,9 +28,9 @@
 
     #title-header {
         font-family:Sedgwick Ave Display, sans-serif;
-        padding-top:5vh;
+        padding-top:0;
         text-align:center;
-        font-size:3vh;
+        font-size:3rem;
     }
 
     #title-header h2 {
