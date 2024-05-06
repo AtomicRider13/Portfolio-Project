@@ -27,14 +27,9 @@
         width: 50%;
     }
 
-    #message {
-        width: 50%; /* Set the width to 50% of its container */
-        height: 10em; /* Set the height to 10 lines (approximately) */
-    }
+   
 
-    textarea {
-        width:100%;
-    }
+    
     
 }
 
@@ -154,8 +149,8 @@ input {
 }
 
 #message {
-    width:20vw;
-    height:20vh;
+    width:60%;
+    height:40vh;
     background-color:lightgray;
     
 }
