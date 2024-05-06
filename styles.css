@@ -23,8 +23,8 @@
         width:12vw;
     }
 
-    #id, #name, #message {
-        width: 20%;
+    #email, #name, #message {
+        width: 50;
     }
     
 }
