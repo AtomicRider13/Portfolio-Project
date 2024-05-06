@@ -23,8 +23,8 @@
         text-align:center;
     }
 
-    div p{
-        margin: 5% 0%;
+    #page-description {
+        width:90%;
     }
 }
 
