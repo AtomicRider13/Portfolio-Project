@@ -3,12 +3,15 @@
         position: fixed;
         top: 10%;
         left: 5%;
-        width: 90%; /* Adjust width to fit the screen */
-        height: 80%; /* Set a fixed height */
-        overflow-y: scroll; /* Add vertical scrollbar */
+        width: 90%;
+        height: 80%;
+        
         background-color: white;
         border: 5px double black;
-        z-index: 9999; /* Ensure popup is on top of other elements */
+        margin: 0; /* Remove margins */
+        padding: 10px; /* Add padding for better spacing */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+        z-index: 9999;
     }
 
     #nav-bar {
