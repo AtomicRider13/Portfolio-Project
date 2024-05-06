@@ -44,7 +44,7 @@
     }
 
     #head-shot img {
-        width:50%;
+        max-width:25%;
     }
     
     
@@ -147,7 +147,7 @@ body {
 
 #head-shot img {
     width:auto;
-    height:50vh;
+    
 }
 
 form {
