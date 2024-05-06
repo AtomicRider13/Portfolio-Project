@@ -51,12 +51,11 @@ body {
     font-family: sans-serif;
 }
 
-
-
-div p {
+#page-description {
     color:white;
     text-align:center;
-    margin:1% 30%;}
+    margin:5% 20%;
+}
     
 
 #nav-bar {
@@ -119,7 +118,9 @@ div p {
     font-size:5vh;
 }
 
-
+#time, #date {
+    color:white;
+}
 
 #head-shot {
     text-align:center;
@@ -154,7 +155,7 @@ input {
 }
 
 #submit {
-    width:5vw;
+    width:6vw;
     font-weight:bold;
     border-radius:0%;
     background-color:lightgray;
@@ -170,10 +171,9 @@ table {
     width:50vw;
     text-align:center;
     margin:auto;
+    width:90vw;
     
 }
-
-
 
 th {
     background-color:orangered;
