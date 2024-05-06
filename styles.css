@@ -23,8 +23,13 @@
         width:12vw;
     }
 
-    #email, #name, #message {
+    #email, #name {
         width: 50%;
+    }
+
+    #message {
+        width: 50%; /* Set the width to 50% of its container */
+        height: 10em; /* Set the height to 10 lines (approximately) */
     }
     
 }
