@@ -1,6 +1,14 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
     #project-popup {
         width:50%;
+    }
+
+    #nav-bar {
+        font-size: 5%;
+    }
+
+    div {
+        margin: 5% 0%;
     }
 }
 
