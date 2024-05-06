@@ -19,13 +19,7 @@
         margin:5% 5%;
     }
 
-    #submit {
-        width:25%;
-        color:black;
-        font-weight:bold;
-        border-radius:0%;
-        background-color:lightgray;
-    }
+
 
     #email, #name {
         width: 50%;
@@ -160,7 +154,7 @@ input {
 }
 
 #submit {
-    width:10%;
+    
     color:black;
     font-weight:bold;
     border-radius:0%;
