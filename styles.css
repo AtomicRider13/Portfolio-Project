@@ -4,8 +4,8 @@
         top: 10%;
         left: 5%;
         width: 90%;
-        height: 80%;
-        
+        max-height: 80%; /* Set a maximum height */
+        overflow-y: auto; /* Add scrollbars if content exceeds maximum height */
         background-color: white;
         border: 5px double black;
         margin: 0; /* Remove margins */
