@@ -1,16 +1,5 @@
 @media only screen and (max-width: 480px) {
-    #project-popup {
-        position: absolute;
-        top: 10%;
-        left: 5%;
-        width: 90%;
-        max-height: 80%; /* Set a maximum height */
-        background-color: white;
-        border: 5px double black;
-        margin: 0; 
-        box-sizing: border-box; /* Include padding and border in width calculation */
-        z-index: 9999;
-    }
+    
 
     #nav-bar {
         font-size: 5%;
@@ -23,13 +12,7 @@
         text-align:center;
     }
 
-    #page-description {
-        width:100vw;
-    }
-
-    #page-description p {
-        width:90%;
-    }
+    
 }
 
 
