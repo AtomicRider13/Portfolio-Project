@@ -54,7 +54,6 @@
 
     #content-header {
         font-family: Sedgwick Ave Display, sans-serif;
-        color:transparent;
         color:orangered;
         padding-top:5%;
         text-align:center;
@@ -143,9 +142,8 @@ body {
 
 #content-header {
     font-family: Sedgwick Ave Display, sans-serif;
-    color:transparent;
     color:orangered;
-    padding-top:12.5vh;
+    padding-top:12.5%;
     text-align:center;
     font-size:5vh;
 }
