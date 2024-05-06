@@ -20,7 +20,8 @@
     }
 
     #submit {
-        width:20px;
+        width:20%;
+        color:black;
     }
 
     #email, #name {
@@ -156,7 +157,8 @@ input {
 }
 
 #submit {
-    width:6vw;
+    width:10%;
+    color:black;
     font-weight:bold;
     border-radius:0%;
     background-color:lightgray;
